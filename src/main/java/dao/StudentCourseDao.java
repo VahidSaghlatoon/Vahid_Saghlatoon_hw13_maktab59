@@ -68,7 +68,7 @@ public class StudentCourseDao {
 
     public List<Course> loadAll(Integer id) {
         try (Connection connection = dataSourceConfig.createDataSource().getConnection();
-             PreparedStatement ps = connection.prepareStatement("SELECT  course_id FROM univercity.student_course WHERE student_id = ?" )){
+             PreparedStatement ps = connection.prepareStatement("SELECT  course_id  FROM univercity.student_course WHERE student_id = ?" )){
             ps.setInt(1, id);
             try (ResultSet resultSet = ps.executeQuery();) {
                 Course course = null;

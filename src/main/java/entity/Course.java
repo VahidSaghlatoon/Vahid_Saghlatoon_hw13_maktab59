@@ -7,7 +7,6 @@ public class Course implements BaseEntity<Integer> {
     private Integer id;
     private String name;
     private Integer unit;
-    private double grade ;
 
     public Course(String name, Integer unit) {
         this.name = name;

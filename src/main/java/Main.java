@@ -1,7 +1,7 @@
-import service.University;
+import service.UniversityService;
 
 public class Main {
     public static void main(String[] args) {
-        new University().start();
+        new UniversityService().start();
     }
 }
