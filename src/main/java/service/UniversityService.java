@@ -3,7 +3,7 @@ package service;
 
 import java.util.Scanner;
 
-public class University {
+public class UniversityService {
 
     public void start() {
         Scanner input = new Scanner(System.in);
