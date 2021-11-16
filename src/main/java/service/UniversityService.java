@@ -22,9 +22,6 @@ public class UniversityService {
                     majorMenu();
                     break;
                 case 4:
-//                    printStudentCourseMenu();
-                    break;
-                case 5:
                     flag = false;
                     break;
             }
@@ -32,12 +29,11 @@ public class UniversityService {
     }
 
     private void printMainMenu() {
-        System.out.println("---Choose your entity--- ");
+        System.out.println("---Choose Please--- ");
         System.out.print("1--> Student\n" +
                 "2--> Course\n" +
                 "3--> Major\n" +
-                "4--> Grade\n" +
-                "5--> Exit\n" +
+                "4--> Exit\n" +
                 "---> ");
     }
 
@@ -57,7 +53,6 @@ public class UniversityService {
                     break;
             }
         }
-        start();
     }
 
     private void courseMenu() {
@@ -76,7 +71,6 @@ public class UniversityService {
                     break;
             }
         }
-        start();
     }
 
     private void studentMenu() {
@@ -99,7 +93,6 @@ public class UniversityService {
                     break;
             }
         }
-        start();
     }
 
     private void printStudentOptions() {
@@ -108,8 +101,8 @@ public class UniversityService {
                 "2--> Show all  \n" +
                 "3--> Find by id\n" +
                 "4--> Delete by id\n" +
-                "5--> Select course by student id and course id \n" +
-                "6--> Show all course selected by student by id \n" +
+                "5--> Select course by student \n" +
+                "6--> Show all course selected by student \n" +
                 "7--> Register grade \n" +
                 "8--> Main Menu\n" +
                 "---> ");
